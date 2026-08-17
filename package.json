@@ -1,0 +1,11 @@
+{
+  "name": "nebula-vercel",
+  "version": "3.0.0",
+  "private": true,
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "build": "npm --prefix client install --no-audit --no-fund && npm --prefix client run build"
+  }
+}
